@@ -1,7 +1,42 @@
 body {
-    
+    background: #FFFFFF
 }
 
-header {
-    
+ul, address {
+    list-style: none;
+}
+
+/* WebStudio */
+
+a {
+    background-image: {logo-black}
+}
+nav {
+    background-color: #FFFFFF
+}
+
+.hero {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 5.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Button */
+
+button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 330px;
+    background-color: #2196F3;
 }
