@@ -7,8 +7,28 @@ address {
     list-style: none;
 }
 
-a {}
+header{
+    width: 1600px;
+    height: 130px;
+}
 
+h3 {
+    display:inline-flex;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: inline-flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 nav {
     background-color: #FFFFFF
 }
@@ -18,23 +38,10 @@ nav {
     color: #FFFFFF;
 }
 
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 5.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+footer {
+    background-color: #2F303A;
 }
 
-/* Button */
-
-button {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 330px;
-    background-color: #2196F3;
+li {
+    display: list-item;
 }
